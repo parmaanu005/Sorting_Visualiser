@@ -6,7 +6,7 @@ import { Controller } from "./components/Controller";
 import { AlgoDisplay } from "./components/AlgoDisplay";
 
 const Container = styled.div`
-  margin: 0 10px;
+  margin: 0px 025px;
   min-height: calc(100vh - 50px);
   position: relative;
   margin-bottom: 50px;

@@ -7,7 +7,7 @@ import { HeapSort } from "../sortFunctions/HeapSort.js";
 import { MergeSort } from "../sortFunctions/MergeSort";
 
 // colors setting
-export const comparisionColor = "pink";
+export const comparisionColor = "violet";
 export const swapColor = "yellow";
 export const sortedColor = "springgreen";
 export const pivotColor = "sandybrown";
@@ -32,5 +32,5 @@ function initArrayForScreenSize() {
   const screenSize = getScreenWidth();
   if (screenSize < 460) return [4, 3, 2, 1];
   else if (screenSize < 720) return [8, 7, 6, 5, 4, 3, 2, 1];
-  return [12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1];
+  return [10, 9, 8, 7, 6, 5, 4, 3, 2, 1];
 }

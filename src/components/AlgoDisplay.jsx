@@ -12,6 +12,7 @@ const FlexWrap = styled.div`
   max-width: 100%;
   column-gap: 10px;
   row-gap: 10px;
+  
 
   & > div {
     max-width: 100%;

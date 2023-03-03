@@ -22,14 +22,14 @@ const ControlBar = styled.div`
   font-size: 2rem;
   display: flex;
   align-items: center;
-  margin: 15px 0;
+  margin: 25px 0;
   flex-wrap: wrap;
 `;
 
 const ArrayBar = styled.div`
   display: flex;
   align-items: center;
-  flex-basis: 60%;
+  flex-basis: 50%;
   flex-grow: 1;
   min-width: 300px;
 `;
@@ -37,7 +37,7 @@ const ArrayBar = styled.div`
 const ExecutionBar = styled.div`
   display: flex;
   align-items: center;
-  flex-basis: 40%;
+  flex-basis: 50%;
   flex-grow: 1;
 `;
 
@@ -119,7 +119,7 @@ export function Controller() {
           color="primary"
           onClick={generate}
         >
-          Generate
+          Generate Array
         </Button>
 
         <TextField
@@ -147,7 +147,7 @@ export function Controller() {
           style={{ flexGrow: 1, flexBasis: "100%" }}
         />
 
-        <div style={{ display: "flex", marginLeft: '20px', columnGap: '5px' }}>
+        <div style={{ display: "flex", margin: '0px 25px', columnGap: '10px' }}>
           {getProgressButton()}
           {resetElement}
         </div>

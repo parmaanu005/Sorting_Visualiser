@@ -19,6 +19,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     width: "100%",
+    fontSize: "25px",
     backgroundColor: theme.palette.background.paper,
   },
 }));
@@ -36,12 +37,11 @@ export function NavBar() {
       <div
         style={{
           display: "flex",
-          justifyContent: "space-between",
+          justifyContent: "center",
           alignItems: "center",
         }}
       >
-        <h3>Sorting Algorithms Visualizer</h3>
-        <a href="https://github.com/sadanandpai/sort-visualizer" target="_blank"><AiFillGithub style={{ fontSize: "1.5rem" }} /></a>
+        <h3>SORTING VISUALIZER</h3>
       </div>
       <AppBar position="static" color="default">
         <Tabs
